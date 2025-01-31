@@ -2,6 +2,7 @@ import os
 import numpy as np
 import gymnasium as gym
 import torch
+import msvcrt
 
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
@@ -125,7 +126,8 @@ class SC2GymEnv(gym.Env):
             units.Terran.SiegeTank: 0,
             units.Terran.Thor: 0,
             units.Terran.Cyclone: 0,
-            units.Terran.Viking: 0,       # covers VikingFighter + VikingAssault
+            units.Terran.VikingFighter: 0,  # Add VikingFighter
+            units.Terran.VikingAssault: 0,  # Add VikingAssault
             units.Terran.Medivac: 0,
             units.Terran.Raven: 0,
             units.Terran.Banshee: 0,
@@ -457,7 +459,31 @@ if __name__ == "__main__":
     # (B) If you want to resume from a matching model:
     # model = PPO.load("sc2_ppo_model", env=env, device="cuda")
 
-    model.learn(total_timesteps=2048)
+    total_timesteps = 500000000
+    timestep_chunk = 1000  # Check for keypress every 1000 timesteps
+    remaining_ts = total_timesteps
 
-    model.save("sc2_ppo_model")
-    print("Training complete. Model saved to 'sc2_ppo_model'.")
+    try:
+        while remaining_ts > 0:
+            # Train in chunks and check for keypress between chunks
+            actual_ts = min(timestep_chunk, remaining_ts)
+            model.learn(actual_ts, reset_num_timesteps=False)
+            remaining_ts -= actual_ts
+            
+            print(f"Remaining timesteps: {remaining_ts}. Press 'q' to stop and save...")
+            
+            # Check for 'q' keypress
+            if msvcrt.kbhit():  # Check if key pressed
+                key = msvcrt.getch()  # Get the key
+                if key == b'q':  # b'q' for bytes comparison
+                    print("\nEarly stopping triggered by user!")
+                    break
+
+    except KeyboardInterrupt:
+        print("\nTraining interrupted by Ctrl+C! Saving model...")
+
+    finally:
+        # Always save when exiting
+        model.save("sc2_ppo_model")
+        print("Model saved to 'sc2_ppo_model'.")
+        env.close()
