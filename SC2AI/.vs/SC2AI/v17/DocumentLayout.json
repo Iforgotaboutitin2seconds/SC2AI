@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\train_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|solutionrelative:train_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\sc2_gym_env.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|solutionrelative:sc2_gym_env.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\run_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|solutionrelative:run_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\train_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{507D6279-D00B-4D6E-AD1B-1A4668E32842}|SC2AI.pyproj|solutionrelative:train_sc2_ai.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "run_sc2_ai.py",
-              "DocumentMoniker": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\run_sc2_ai.py",
-              "RelativeDocumentMoniker": "run_sc2_ai.py",
-              "ToolTip": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\run_sc2_ai.py",
-              "RelativeToolTip": "run_sc2_ai.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "sc2_gym_env.py",
+              "DocumentMoniker": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\sc2_gym_env.py",
+              "RelativeDocumentMoniker": "sc2_gym_env.py",
+              "ToolTip": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\sc2_gym_env.py",
+              "RelativeToolTip": "sc2_gym_env.py",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwDsAAAA9AAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPpZCxaxNhGMZ/9zVJaUuDUlq1FBWLZBFTCXo4BFyU1qGKi4OkIHhkzF/g0KF00M2lR9YUdDDQQVAcJILoQUd1UNRmkhoRm8RL777v7nOoCZd4AcEH3uF5nvd73vd74X\u002BgtTai3LIsHeWDEEJct217a1DvwbIs7bpubFUqFW3b9naxWLwWfSOipAvHcfqqi0KhkMtms3cty1rsaomeG4FpmoMSANVqlXQ6nQMWgacMC4hOBchduEj\u002ByjKjScGh8SS1Wq3nxQZEN3j1eY/Vrfe8rTeQvsf89ARLS1cz5XIZ/uUGXxptQiVRUhJIybudXaZn52a7vbEBpmkyNb/A69YM9W8tDEJOTI2hpI\u002BSkvOZH2f13sNAB\u002B07sV9wHIdH9Unquz9RvoeUPtL3UFISKkky\u002BAT7HwTi6FpsgGma3N9\u002Bg5I\u002BKaFZyU8wOpJChwHnjiuE9wKCXyC/zsQGOI7DeELjtiUPbgky6Wd/HA3KBelC4AIpNfQGl88cQ0mfI5PugRhKkM2DUk0INYwtPI/dAGAlf4rbl06T6DyBVgeCABJzYPhwcm0V8ICNvwJKpVIf37h3IxSyKVAuBMDIYQAMw1jvaxwGrYNl3Xq5o79vat3Y3Nedj4\u002B11je7/m\u002BXOuyzFtDhUgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-01-31T00:50:12.922Z"
+              "WhenOpened": "2025-02-02T06:20:42.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "train_sc2_ai.py",
               "DocumentMoniker": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\train_sc2_ai.py",
               "RelativeDocumentMoniker": "train_sc2_ai.py",
               "ToolTip": "C:\\Users\\kenyo\\Desktop\\SC2AI\\SC2AI\\train_sc2_ai.py",
               "RelativeToolTip": "train_sc2_ai.py",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAowLYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPpZCxaxNhGMZ/9zVJaUuDUlq1FBWLZBFTCXo4BFyU1qGKi4OkIHhkzF/g0KF00M2lR9YUdDDQQVAcJILoQUd1UNRmkhoRm8RL777v7nOoCZd4AcEH3uF5nvd73vd74X\u002BgtTai3LIsHeWDEEJct217a1DvwbIs7bpubFUqFW3b9naxWLwWfSOipAvHcfqqi0KhkMtms3cty1rsaomeG4FpmoMSANVqlXQ6nQMWgacMC4hOBchduEj\u002ByjKjScGh8SS1Wq3nxQZEN3j1eY/Vrfe8rTeQvsf89ARLS1cz5XIZ/uUGXxptQiVRUhJIybudXaZn52a7vbEBpmkyNb/A69YM9W8tDEJOTI2hpI\u002BSkvOZH2f13sNAB\u002B07sV9wHIdH9Unquz9RvoeUPtL3UFISKkky\u002BAT7HwTi6FpsgGma3N9\u002Bg5I\u002BKaFZyU8wOpJChwHnjiuE9wKCXyC/zsQGOI7DeELjtiUPbgky6Wd/HA3KBelC4AIpNfQGl88cQ0mfI5PugRhKkM2DUk0INYwtPI/dAGAlf4rbl06T6DyBVgeCABJzYPhwcm0V8ICNvwJKpVIf37h3IxSyKVAuBMDIYQAMw1jvaxwGrYNl3Xq5o79vat3Y3Nedj4\u002B11je7/m\u002BXOuyzFtDhUgAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-01-31T00:22:43.354Z",
               "EditorCaption": ""
